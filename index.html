@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculador de Peso</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+        <h1 class="h-1 mt-5 pt-5" >Tu peso en otro planeta</h1>
+        <p>en la tierra pesas menos que en marte o jupiter</p>
+        <button type="button" class="btn btn-outline-primary">Peso Final</button>
+        <button type="button" class="btn btn-outline-danger"> 
+      
+
+    <script>
+         
+      var g_tierra = 9.8;
+      var g_marte = 3.7;
+      var g_jupiter = 24.8;
+      var peso = 90;
+      var peso_final;
+      peso_final = peso * g_marte / g_tierra;
+      peso_final = parseInt(peso_final);
+      document.write(peso_final);
+      
+        
+    </script>
+</body>
+</html>
